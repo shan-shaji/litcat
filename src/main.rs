@@ -10,8 +10,16 @@ enum InputSource {
     Stdin(BufReader<std::io::Stdin>),
 }
 
+/// A cat-like CLI tool for colored diff viewing
+///
+/// litcat is a simple Rust CLI tool that displays patch files with syntax highlighting.
+/// It recognizes diff markers and colors added (+), removed (-), and context lines accordingly.
+///
+/// # Examples
+/// litcat patch.diff
+/// git diff | litcat
 #[derive(Parser)]
-#[command (author, version, about, long_about = None)]
+#[command(author, version)]
 struct Args {
     /// Path to the file to display. If not provided, reads from stdin.
     file: Option<String>,
