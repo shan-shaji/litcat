@@ -2,7 +2,6 @@
 
 **litcat** is a simple Rust CLI tool for viewing patch and diff files with  highlighting. It colors added (`+`), removed (`-`), and context lines to make git diffs easier to read in your terminal.
 
----
 
 ## Features
 
@@ -11,7 +10,6 @@
 - Colors diff headers and hunk markers
 - Reads from a file or standard input (pipe)
 
----
 
 ## Usage
 
@@ -27,8 +25,6 @@ litcat patch.diff
 git diff | litcat
 ```
 
----
-
 ## Example Output
 
 - Lines starting with `+` (but not `+++`) are **green**
@@ -37,7 +33,6 @@ git diff | litcat
 - Hunk markers (`@@ ... @@`) are **yellow**
 - All other lines are default color
 
----
 
 ## Installation
 
@@ -61,8 +56,6 @@ If published, you can install directly using cargo:
 ```sh
 cargo install litcat
 ```
-
----
 
 ## Dependencies
 
