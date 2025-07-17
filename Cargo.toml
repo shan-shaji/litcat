@@ -6,7 +6,7 @@ readme = "README.md"
 authors = ["Shan Shaji <shanshajiv@gmail.com>"]
 description = "A CLI tool for viewing patches with colors"
 homepage = "https://github.com/shan-shaji/litcat"
-license = "BSD 3-Clause License"
+license = "BSD-3-Clause"
 keywords = ["cat", "cli", "git", "patch"]
 categories = ["development-tools::debugging", "development-tools"]
 
