@@ -51,7 +51,7 @@ git diff | litcat
 
 ### 2. Install from crates.io
 
-If published, you can install directly using cargo:
+you can install directly using cargo:
 
 ```sh
 cargo install litcat
