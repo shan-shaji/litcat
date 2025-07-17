@@ -40,7 +40,7 @@ git diff | litcat
 
 1. Clone the repo:
     ```sh
-    git clone https://github.com/yourusername/litcat.git
+    git clone https://github.com/shan-shaji/litcat.git
     cd litcat
     ```
 2. Build:
