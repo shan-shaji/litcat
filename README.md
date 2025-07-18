@@ -16,13 +16,13 @@
 ### From a patch file
 
 ```sh
-litcat patch.diff
+litcat xxx.patch
 ```
 
-### From git diff output
+### Accepting stdin 
 
 ```sh
-git diff | litcat
+cat diff.patch | litcat
 ```
 
 ## Example Output
