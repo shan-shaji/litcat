@@ -47,7 +47,8 @@ cat diff.patch | litcat
     ```sh
     cargo build --release
     ```
-3. Run as shown above.
+3. Copy the build to `~/.cargo/bin`.
+4. Run as shown above.
 
 ### 2. Install from crates.io
 
