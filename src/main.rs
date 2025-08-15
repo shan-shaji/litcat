@@ -16,8 +16,8 @@ enum InputSource {
 /// It recognizes diff markers and colors added (+), removed (-), and context lines accordingly.
 ///
 /// # Examples
-/// litcat patch.diff
-/// git diff | litcat
+/// litcat diff.patch
+/// cat diff.patch | litcat
 #[derive(Parser)]
 #[command(author, version)]
 struct Args {
